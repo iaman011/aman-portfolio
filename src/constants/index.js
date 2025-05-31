@@ -13,6 +13,8 @@ import {
   crave,
 } from "../assets";
 
+import cbseb from "../assets/023.jpg"
+
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -25,6 +27,7 @@ import {
 
 import {
   SiJavascript,
+  SiTypescript,
   SiBootstrap,
   SiReact,
   SiTailwindcss,
@@ -48,10 +51,10 @@ import {
 import { DiCss3, DiJava } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1xdEWelNwa5nn2UVeHiTGcQu1suAoSRfr/view?usp=drivesdk";
-export const repoLink = "https://github.com/pankaj1132";
+  "https://drive.google.com/file/d/15sR8WNrRIZsBDOVTptnKc4b8eMSJc0Z7/view?usp=drive_link";
+export const repoLink = "https://github.com/iaman011";
 
-export const callToAction = "https://www.linkedin.com/in/pankaj-saini1132";
+export const callToAction = "https://drive.google.com/file/d/15sR8WNrRIZsBDOVTptnKc4b8eMSJc0Z7/view?usp=drive_link";
 
 export const navLinks = [
   {
@@ -87,6 +90,14 @@ export const educationList = [
     degree: "Bachelor of Technology",
     duration: "2022-2026",
     content1: "Computer Science and Engineering",
+  },
+    {
+    id: "education-1",
+    icon: cbseb,
+    title: "Government Co-Ed Sarvodaya Vidyalaya Sector-22, Rohini",
+    degree: "Higher Secondary Education",
+    duration: "2020-2022",
+    content1: "PCM + Computer Science",
   },
 ];
 
@@ -130,6 +141,11 @@ export const skills = [
         id: "pl-10",
         icon: SiJavascript,
         name: "JavaScript",
+      },
+       {
+        id: "pl-10",
+        icon: SiTypescript,
+        name: "TypeScript",
       },
     ],
   },
@@ -218,40 +234,40 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
-  {
-    organisation: "Qubinets Technologies, India",
-    logo: Logo_Qubinets,
-    link: "https://qubinets.com/",
-    positions: [
-      {
-        title: "Full Stack Developer",
-        duration: "Jul 2024 - Jan 2025",
-        content: [
-          {
-            text: "Working as a Full Stack Developer on a Mern-based project for a US-based client.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Qspiders, India",
-    logo: q,
-    link: "https://qspiders.com/",
-    positions: [
-      {
-        title: "ReactJS Intern",
-        duration: "JAN 2025 - Present",
-        content: [
-          {
-            text: "Working as a Frontend Developer on a React-based project for a US-based client.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
+  // {
+  //   organisation: "Qubinets Technologies, India",
+  //   logo: Logo_Qubinets,
+  //   link: "https://qubinets.com/",
+  //   positions: [
+  //     {
+  //       title: "Full Stack Developer",
+  //       duration: "Jul 2024 - Jan 2025",
+  //       content: [
+  //         {
+  //           text: "Working as a Full Stack Developer on a Mern-based project for a US-based client.",
+  //           link: "",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   organisation: "Qspiders, India",
+  //   logo: q,
+  //   link: "https://qspiders.com/",
+  //   positions: [
+  //     {
+  //       title: "ReactJS Intern",
+  //       duration: "JAN 2025 - Present",
+  //       content: [
+  //         {
+  //           text: "Working as a Frontend Developer on a React-based project for a US-based client.",
+  //           link: "",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
@@ -540,7 +556,8 @@ export const socialMedia = [
 export const aboutMe = {
   name: "Aman Singh",
   githubUsername: "iaman011",
-  tagLine: "Full Stack Developer at Qubinets Technologies",
+  // tagLine: "Full Stack Developer at Qubinets Technologies",
+  tagLine: "Full Stack Developer",
   intro:
     "Fullstack MERN Developer skilled in building dynamic, scalable web applications with MongoDB, Express.js, React, and Node.js.",
 };

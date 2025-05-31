@@ -13,14 +13,15 @@ const LetsConnect = () => {
       >
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23px]">
-            <span className="text-gradient">Let's</span>
+            <span className="text-gradient">Download</span>
           </p>
-          <img src={arrowUp} alt="arrowUp" className="w-[23px] h-[23px] " />
+          
         </div>
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23px]">
-            <span className="text-gradient">Connect</span>
+            <span className="text-gradient">Resume</span>
           </p>
+          <img src={arrowUp} alt="arrowUp" className="w-[23px] h-[23px] " />
         </div>
       </div>
     </div>

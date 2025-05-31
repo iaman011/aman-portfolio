@@ -12,7 +12,7 @@ const Footer = () => (
       className={`${layout.sectionReverse} xl:max-w-[1280px] w-full mx-auto gap-y-4 `}
     >
       <div className={` ${layout.sectionInfo}`}>
-        <h2 className="text-xl font-bold text-gray-800 font-poppins dark:text-white hover:text-gray-700 dark:hover:text-gray-300">
+        <h2 className="text-xl font-bold text-white font-poppins dark:text-white hover:text-indigo-500 dark:hover:text-gray-300">
           {aboutMe.name}
         </h2>
         <p
@@ -52,14 +52,14 @@ const Footer = () => (
       <div className="md:ml-auto mt-10 md:mt-0">
         <img
           src={profilePic}
-          alt="Parth Mittal"
+          alt="Aman Singh"
           className="w-[200px] h-[200px] border-2 border-teal-200 relative z-[5] rounded-full"
         />
       </div>
     </div>
     <div className="text-center font-poppins font-normal text-dimWhite text-xs sm:text-sm pb-4">
       <p>
-        Made with Pankaj Saini and ❤️. All rights reserved.
+        Designed & developed by Aman Singh. All rights reserved.
       </p>
     </div>
   </footer>
