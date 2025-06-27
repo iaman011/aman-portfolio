@@ -46,7 +46,11 @@ import {
   SiOpenai,
   SiNextdotjs,
   SiWebauthn,
+  SiPrisma,
+  SiStripe,
+  SiGoogle, // for Gemini API
 } from "react-icons/si";
+
 
 import { DiCss3, DiJava } from "react-icons/di";
 
@@ -273,17 +277,17 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "CraveBite",
-    github: "https://github.com/pankaj1132/Cravebite",
-    link: "https://cravebite-kappa.vercel.app/",
+    title: "AI-Finance Platform",
+    github: "https://github.com/iaman011/AI-Finance-Platform",
+    link: "https://ai-finance-platform-iaman011s-projects.vercel.app/",
     image: crave,
     content:
-      "A food recommendation system that uses OpenAI's GPT-3.5 to suggest recipes based on the ingredients you have at home. It also provides a shopping list for the missing ingredients.",
+      "QuantEdge is an AI-powered personal finance platform that helps you manage your income and expenses with ease. It features an interactive dashboard, AI-based receipt scanning using the Gemini API, and regular Gmail updates about your expenses — keeping you informed and in control of your finances.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
+        icon: SiNextdotjs,
+        name: "Next.js",
       },
       {
         id: "icon-2",
@@ -292,8 +296,8 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
+        icon: SiPostgresql,
+        name: "Postgresql",
       },
       {
         id: "icon-4",
@@ -302,24 +306,29 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: SiMongodb,
-        name: "mongodb",
+        icon:  SiPrisma,
+        name: "Prisma",
+      },
+       {
+        id: "icon-6",
+        icon:  SiGoogle,
+        name: "Gemini",
       },
     ],
   },
   {
     id: "project-2",
-    title: "MovieFlix",
-    github: "https://github.com/pankaj1132/MovieFlix",
-    link: "https://movieflixpankaj.netlify.app/",
+    title: "E-Commerce Web Application",
+    github: "https://github.com/iaman011/e-commerce",
+    link: "https://e-commerce-nextjs-iaman011s-projects.vercel.app/",
     image: movie,
     content:
-      " A movie recommendation system that uses a collaborative filtering algorithm to suggest movies based on the user's ratings.",
+      " E-Commerce platform with Next.js 15, Tailwind CSS v4, and Stripe. Featuring a dynamic product carousel, responsive product pages, real-time cart updates with Zustand, and a seamless Stripe-powered checkout — all wrapped in a sleek, modern UI.",
     stack: [
       {
         id: "icon-1",
-        icon: SiReact,
-        name: "React",
+        icon: SiNextdotjs,
+        name: "Next.js",
       },
       {
         id: "icon-2",
@@ -328,19 +337,15 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
+        icon:  SiStripe,
+        name: "Stripe",
       },
       {
         id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript",
+        icon: SiTypescript,
+        name: "Typescript",
       },
-      {
-        id: "icon-5",
-        icon: SiMongodb,
-        name: "mongodb",
-      },
+    
     ],
   },
   {
