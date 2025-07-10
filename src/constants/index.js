@@ -49,16 +49,17 @@ import {
   SiPrisma,
   SiStripe,
   SiGoogle, // for Gemini API
+  SiJsonwebtokens
 } from "react-icons/si";
 
 
 import { DiCss3, DiJava } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/15sR8WNrRIZsBDOVTptnKc4b8eMSJc0Z7/view?usp=drive_link";
+  "https://drive.google.com/file/d/1sNKhdHYjiJW54M5apehsGPiYmFPeEEaT/view?usp=sharing";
 export const repoLink = "https://github.com/iaman011";
 
-export const callToAction = "https://drive.google.com/file/d/15sR8WNrRIZsBDOVTptnKc4b8eMSJc0Z7/view?usp=drive_link";
+export const callToAction = "https://drive.google.com/file/d/1sNKhdHYjiJW54M5apehsGPiYmFPeEEaT/view?usp=sharing";
 
 export const navLinks = [
   {
@@ -175,28 +176,50 @@ export const skills = [
       {
         id: "f-7",
         icon: SiNextdotjs,
-        name: "NODEJS",
+        name: "NEXTJS",
       },
       {
         id: "f-8",
         icon: SiExpress,
         name: "EXPRESSJS",
       },
+      {
+        id: "f-9",
+        icon: SiNodedotjs,
+        name: "NODEJS",
+      },
+       {
+        id: "f-9",
+        icon:  SiJsonwebtokens,
+        name: " Jsonwebtokens",
+      },
+     
     ],
   },
   {
-    title: "Tools",
+    title: "Database",
     items: [
       {
         id: "t-1",
         icon: SiMongodb,
         name: "MongoDB",
       },
+   
+    
+     
       {
-        id: "t-2",
-        icon: SiMysql,
-        name: "MySQL",
+        id: "t-8",
+        icon: SiPostgresql,
+        name: "POSTGRESQL",
       },
+   
+    ],
+  },
+   {
+    title: "Tools",
+    items: [
+    
+   
       {
         id: "t-3",
         icon: SiPostman,
@@ -217,16 +240,8 @@ export const skills = [
         icon: AiFillGithub,
         name: "GitHub",
       },
-      {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: SiPostgresql,
-        name: "POSTGRESQL",
-      },
+     
+     
       // {
       //   id: "t-9",
       //   icon: SiDocker,
@@ -280,7 +295,7 @@ export const projects = [
     title: "AI-Finance Platform",
     github: "https://github.com/iaman011/AI-Finance-Platform",
     link: "https://ai-finance-platform-iaman011s-projects.vercel.app/",
-    image: crave,
+    image: '/Qlogo.png',
     content:
       "QuantEdge is an AI-powered personal finance platform that helps you manage your income and expenses with ease. It features an interactive dashboard, AI-based receipt scanning using the Gemini API, and regular Gmail updates about your expenses — keeping you informed and in control of your finances.",
     stack: [
@@ -312,7 +327,7 @@ export const projects = [
        {
         id: "icon-6",
         icon:  SiGoogle,
-        name: "Gemini",
+        name: "Google Gemini",
       },
     ],
   },
@@ -321,7 +336,7 @@ export const projects = [
     title: "E-Commerce Web Application",
     github: "https://github.com/iaman011/e-commerce",
     link: "https://e-commerce-nextjs-iaman011s-projects.vercel.app/",
-    image: movie,
+    image: '/public/download (1).png',
     content:
       " E-Commerce platform with Next.js 15, Tailwind CSS v4, and Stripe. Featuring a dynamic product carousel, responsive product pages, real-time cart updates with Zustand, and a seamless Stripe-powered checkout — all wrapped in a sleek, modern UI.",
     stack: [
@@ -350,12 +365,12 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "Periodic Table",
-    github: "https://github.com/pankaj1132/periodic_table",
-    link: "https://periodic-table-psi.vercel.app/",
-    image: chargeswap,
+    title: "AI-Powered Code Reviewer",
+    github: "https://github.com/iaman011/AI-Powered-Code-Reviewer",
+    // link: "",
+    image: '/codereview.jpeg',
     content:
-      "A periodic table of elements with detailed information about each element, including its atomic number, symbol, and atomic weight.",
+      "Built an intelligent code review platform that streamlines the code review process using AI-driven insights and a user-friendly interface.",
     stack: [
       {
         id: "icon-1",
@@ -374,17 +389,27 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiMongodb,
-        name: "mongodb",
+       icon: SiNodedotjs,
+        name: "Node.js",
+      },
+       {
+        id: "icon-5",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
+        id: "icon-6",
+        icon: SiGoogle,
+        name: "Google Gemini",
       },
     ],
   },
   {
     id: "project-4",
     title: "Uber Backend",
-    github: "https://github.com/pankaj1132/uber_clone_",
+    github: "https://github.com/iaman011/Uber-Clone-App",
 
-    image: uber,
+    image: '/uber-logo.jpg',
     content:
       "A Uber clone with a custom built CMS. It has a custom built CMS with a ride booking, payment and a like/dislike button.",
     stack: [
@@ -400,13 +425,13 @@ export const projects = [
       },
       {
         id: "icon-3",
-        icon: SiPostgresql,
-        name: "PostgreSQL",
+        icon: SiMongodb,
+        name: "Mongodb",
       },
       {
         id: "icon-4",
-        icon: SiWebauthn,
-        name: "WebAuthn",
+        icon: SiJsonwebtokens,
+        name: "Jsonwebtokens",
       },
     ],
   },
@@ -487,26 +512,26 @@ export const stats = [
 export const extraCurricular = [
   {
     id: 1,
-    organisation: " SQL Essentail Traning (LinkedIn) Program",
-    title: "SQL Essential Training",
-    duration: "May 2024 - May 2024",
+    organisation: "PW Skills",
+    title: "DevOps & Cloud Computing",
+    duration: "May 2025 - Oct 2025",
     content: [
       {
-        text: "Completed SQL Essential Training course on LinkedIn Learning.",
-        link: "https://drive.google.com/file/d/1BtPAnZ_S9cu8Rq_McF66QDLhz7crfS0L/view",
+        text: "I’m actively upskilling in DevOps and Cloud Computing, focusing on CI/CD pipelines with Docker, Kubernetes, Jenkins, and AWS. I’m gaining hands-on experience in infrastructure as code using Terraform, configuration management with Ansible, and system monitoring through Prometheus and Grafana.",
+        // link: "https://drive.google.com/file/d/1BtPAnZ_S9cu8Rq_McF66QDLhz7crfS0L/view",
       },
     ],
-    logo: LLlearing,
+    logo: '/pws.png',
   },
   {
     id: 2,
     organisation: "CODING BLOCKS",
     title: "Data Structures and Algorithms",
-    duration: "june 2023 - Dec 2023",
+    duration: "Jan 2024 - June 2024",
     content: [
       {
-        text: "Completed Data Structures and Algorithms course on Coding Blocks.",
-        link: "https://drive.google.com/file/d/1CWGOdvhPYriAbj0lc8k5enCTws0fzBPn/view",
+        text: "This comprehensive 6-month offline program, guided by expert mentor Abhishek Srivastava at Coding Blocks, is meticulously designed to build strong foundational and advanced skills in Data Structures and Algorithms (DSA) using C++.",
+        link: "https://drive.google.com/file/d/1yjMLZcNOD0a_gqejsSmfgjCfsfnf3cn4/view?usp=sharing",
       },
     ],
 
@@ -514,17 +539,17 @@ export const extraCurricular = [
   },
   {
     id: 3,
-    organisation: "Coincent.Ai ArIES IIT ROORKEE",
-    title: "Python Bootcamp",
-    duration: "Jan 2023 - Mar 2023",
+    organisation: "Coursera",
+    title: "Python for Data Science, AI & Development",
+    duration: "September 9, 2023",
     content: [
       {
-        text: "Completed Python Bootcamp course on Coincent.Ai ArIES IIT Roorkee.",
-        link: "https://drive.google.com/file/d/1e4mrnkg9VkS4ATw_e8cqfpfhMu6bh3Kt/view",
+        text: "The course covers Python libraries like NumPy and Pandas for data manipulation and analysis, APIs and web scraping, teaching you how to interact with REST APIs using libraries like requests and extract data from websites using BeautifulSoup",
+        link: "https://www.coursera.org/account/accomplishments/certificate/SK4JV7BU6VEN",
       },
     ],
 
-    logo: pyyy,
+    logo: '/Coursera-Logo_600x600.svg.png',
   },
 ];
 
@@ -543,12 +568,12 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:pankaj17469@gmail.com",
+    link: "mailto:iaman.singh011@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://x.com/pankaj17469",
+    link: "https://x.com/iaman011",
   },
   {
     id: "social-media-5",

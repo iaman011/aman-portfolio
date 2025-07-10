@@ -25,7 +25,7 @@ const SkillCard = ({ title, items }) => (
         {title}
       </h4>
     </div>
-    <div className="grid grid-cols-3 lg:grid-cols-5 gap-6 ml-8">
+    <div className="grid grid-cols-3 lg:grid-cols-6 gap-6 ml-8">
       {items.map((item) => (
         <SkillIcon key={item.id} {...item} />
       ))}
