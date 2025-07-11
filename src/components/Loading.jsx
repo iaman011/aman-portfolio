@@ -1,6 +1,6 @@
 import styles from "../style";
 import { motion } from "framer-motion";
-import { pankaj } from "../assets";
+
 
 const Loading = () => {
   return (
@@ -16,7 +16,7 @@ const Loading = () => {
       }}
     >
       <img
-        src={pankaj}
+        src='/loader.jpg'
         alt="Pankaj Saini"
         className="w-[100px] h-[100px] border-2 border-teal-200 relative z-[5] rounded-lg p-1"
       />

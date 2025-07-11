@@ -1,6 +1,6 @@
 <h1 align="center"> Personal Portfolio </h1>
 
-<img width="945" alt="image" src="https://user-images.githubusercontent.com/76661350/193249886-79f3d04a-47c0-4b4b-93a6-23c32cf762f1.png">
+<img width="945" alt="image" src='/banner.png>
 
 ### Deployed link: https://parthmittal.netlify.app/
 
@@ -36,7 +36,7 @@
 ## Implemented Sections ☑️
 
 - Hero Section
-- Skills & Experience
+- Skills 
 - Education
 - Projects
 - Blogs
@@ -52,13 +52,13 @@ Three main things have to be changed to customize it your way (please open an is
 
 1. Personal Information
 
-- [/src/constants/index.js](https://github.com/mittal-parth/personal-portfolio/blob/main/src/constants/index.js) contains all the personal information one needs to change. Each website section is written as a JavaScript object and is pretty intuitive to change.
+- [/src/constants/index.js](https://github.com/iaman011/aman-portfolio/blob/main/src/constants/index.js) contains all the personal information one needs to change. Each website section is written as a JavaScript object and is pretty intuitive to change.
 
 - Icons
   - Whenever you want to use an icon, you'll have to make sure that the icon is imported.
   - Head to [https://react-icons.github.io/react-icons/search](https://react-icons.github.io/react-icons/search) and search for the desired icon. (Eg: SiReact for ReactJS)
   - Note the package it belongs to (Eg: 'Si' here)
-  - Import the icon into [`/src/constants/index.js`](https://github.com/mittal-parth/personal-portfolio/blob/main/src/constants/index.js) (Eg: `import { ... SiReact, } from "react-icons/si";` here)
+  - Import the icon into [`/src/constants/index.js`](https://github.com/iaman011/aman-portfolio/blob/main/src/constants/index.js) (Eg: `import { ... SiReact, } from "react-icons/si";` here)
 
 2. Website title and icon
 

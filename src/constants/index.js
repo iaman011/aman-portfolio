@@ -50,7 +50,10 @@ import {
   SiStripe,
   SiGoogle, // for Gemini API
   SiJsonwebtokens
+  
 } from "react-icons/si";
+
+import { SiVercel, SiWhatsapp, SiX } from "react-icons/si";
 
 
 import { DiCss3, DiJava } from "react-icons/di";
@@ -64,7 +67,8 @@ export const callToAction = "https://drive.google.com/file/d/1sNKhdHYjiJW54M5ape
 export const navLinks = [
   {
     id: "skills",
-    title: "Skills & Experience",
+    // title: "Skills & Experience",
+    title: "Skills",
   },
   {
     id: "education",
@@ -145,7 +149,7 @@ export const skills = [
       {
         id: "pl-10",
         icon: SiJavascript,
-        name: "JavaScript",
+        name: "JavaScript(ES5/ES6)",
       },
        {
         id: "pl-10",
@@ -155,18 +159,18 @@ export const skills = [
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Frontend Technologies",
     items: [
       {
         id: "f-3",
         icon: SiReact,
-        name: "ReactJS",
+        name: "React.js",
       },
-      {
-        id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
+      // {
+      //   id: "f-4",
+      //   icon: SiBootstrap,
+      //   name: "Bootstrap",
+      // },
       {
         id: "f-5",
         icon: SiTailwindcss,
@@ -176,23 +180,50 @@ export const skills = [
       {
         id: "f-7",
         icon: SiNextdotjs,
-        name: "NEXTJS",
+        name: "Next.js",
       },
+      
+       {
+        id: "f-11",
+        icon: SiTailwindcss,
+        name: "Shadcn/ui",
+      },
+   
+      
+     
+    ],
+  },
+   {
+    title: "Backend Technologies",
+    items: [
+      
       {
         id: "f-8",
         icon: SiExpress,
-        name: "EXPRESSJS",
+        name: "Express.js",
       },
       {
         id: "f-9",
         icon: SiNodedotjs,
-        name: "NODEJS",
+        name: "Node.js",
       },
        {
-        id: "f-9",
+        id: "f-10",
         icon:  SiJsonwebtokens,
         name: " Jsonwebtokens",
       },
+      
+       {
+        id: "f-12",
+        icon: SiPostman,
+        name: "RESTful API",
+      },
+      {
+        id: "f-13",
+        icon: SiWebauthn,
+        name: "NextAuth.js",
+      },
+      
      
     ],
   },
@@ -208,9 +239,15 @@ export const skills = [
     
      
       {
-        id: "t-8",
+        id: "t-2",
         icon: SiPostgresql,
-        name: "POSTGRESQL",
+        name: "PostgreSQL",
+      },
+      
+      {
+        id: "t-3",
+        icon: SiPrisma,
+        name: "Prisma",
       },
    
     ],
@@ -240,7 +277,11 @@ export const skills = [
         icon: AiFillGithub,
         name: "GitHub",
       },
-     
+      {
+        id: "t-7",
+        icon: SiVercel,
+        name: "Vercel",
+      },
      
       // {
       //   id: "t-9",
@@ -336,7 +377,7 @@ export const projects = [
     title: "E-Commerce Web Application",
     github: "https://github.com/iaman011/e-commerce",
     link: "https://e-commerce-nextjs-iaman011s-projects.vercel.app/",
-    image: '/public/download (1).png',
+    image: '/download (1).png',
     content:
       " E-Commerce platform with Next.js 15, Tailwind CSS v4, and Stripe. Featuring a dynamic product carousel, responsive product pages, real-time cart updates with Zustand, and a seamless Stripe-powered checkout — all wrapped in a sleek, modern UI.",
     stack: [
@@ -411,7 +452,7 @@ export const projects = [
 
     image: '/uber-logo.jpg',
     content:
-      "A Uber clone with a custom built CMS. It has a custom built CMS with a ride booking, payment and a like/dislike button.",
+      "Built a secure, scalable backend for an Uber Clone with Node.js, Express, MongoDB, and JWT-based authentication, optimizing APIs for high-traffic performance.",
     stack: [
       {
         id: "icon-1",
@@ -437,13 +478,18 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Youtube Videos",
-    github: "https://github.com/pankaj1132/youtube_lite",
-    link: "https://youtube-lite-self.vercel.app/",
-    image: yt,
+    title: "Paste-React App (Text Editor)",
+    github: "https://github.com/iaman011/pasteApp",
+    link: "https://paste-app-di7v-iaman011s-projects.vercel.app/",
+    image: '/texteditor.png',
     content:
-      " A Youtube clone with a custom built CMS. It has a custom built CMS with a video player, comments section and a like/dislike button.",
+      "Built a rich-text editor with local data persistence, optimized Redux state management, and a fully responsive, mobile-friendly UI.",
     stack: [
+      {
+        id: "icon-5",
+        icon: SiReact,
+        name: "React",
+      },
       {
         id: "icon-3",
         icon: SiJavascript,
@@ -451,16 +497,13 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: SiTailwindcss,
+        name: "Tailwindcss",
       },
-      {
-        id: "icon-5",
-        icon: SiReact,
-        name: "React",
-      },
+      
     ],
   },
+  /*
   {
     id: "project-6",
     title: "Job Portal",
@@ -487,25 +530,26 @@ export const projects = [
       },
     ],
   },
+  */
 ];
 
 // Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
 export const stats = [
-  {
-    id: "stats-1",
-    title: "Organisations",
-    value: "2+",
-  },
-  {
-    id: "stats-2",
-    title: "Issues Opened",
-    value: "6+",
-  },
-  {
-    id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
-  },
+  // {
+  //   id: "stats-1",
+  //   title: "Organisations",
+  //   value: "2+",
+  // },
+  // {
+  //   id: "stats-2",
+  //   title: "Issues Opened",
+  //   value: "6+",
+  // },
+  // {
+  //   id: "stats-3",
+  //   title: "Pull Requests",
+  //   value: "6+",
+  // },
 ];
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
@@ -563,7 +607,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://github.com/pankaj1132",
+    link: "https://github.com/iaman011",
   },
   {
     id: "social-media-3",
@@ -572,13 +616,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://x.com/iaman011",
+    icon: SiWhatsapp,
+    link: "https://wa.me/919310063238?text=Hello%20Aman!%20I%20came%20across%20your%20portfolio.",
   },
   {
     id: "social-media-5",
-    icon: AiFillInstagram,
-    link: "https://www.instagram.com/pankaj._saini11/?hl=en",
+    icon: SiX,
+    link: "https://x.com/iaman011",
   },
 ];
 
