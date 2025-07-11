@@ -58,10 +58,10 @@ import { SiVercel, SiWhatsapp, SiX } from "react-icons/si";
 import { DiCss3, DiJava } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1sNKhdHYjiJW54M5apehsGPiYmFPeEEaT/view?usp=sharing";
+  "https://drive.google.com/file/d/1HKSXNQEpJqvFQWk2aeJ2x7r6Naby8YD9/view?usp=sharing";
 export const repoLink = "https://github.com/iaman011";
 
-export const callToAction = "https://drive.google.com/file/d/1sNKhdHYjiJW54M5apehsGPiYmFPeEEaT/view?usp=sharing";
+export const callToAction = "https://drive.google.com/file/d/1HKSXNQEpJqvFQWk2aeJ2x7r6Naby8YD9/view?usp=sharing";
 
 export const navLinks = [
   {
