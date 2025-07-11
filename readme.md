@@ -64,9 +64,26 @@ To customize this portfolio, you’ll mainly need to edit:
    - Import and export them from `/src/assets/index.js`
 ### Deployment
 
-You can use [Netlify](https://docs.netlify.com/) to deploy your site. Follow the instructions in their docs to do so.
+You can easily deploy this portfolio using Vercel. Follow their quick and intuitive deployment process:
 
-Since we have env variables, make sure to add them from the Netlify UI as well. [Link to Guide](https://docs.netlify.com/environment-variables/get-started/#site-environment-variables)
+📌 Steps:
+
+1️⃣ Connect your GitHub repository to [Vercel](https://vercel.com/).
+
+2️⃣ Import your project and select the appropriate framework preset:
+    - `Vite`
+    - or `React` (if applicable)
+
+3️⃣ During setup, configure your **Environment Variables** from the Vercel dashboard:
+    - Go to: `Project Settings → Environment Variables`
+    - Add your variables here. For example:
+
+    ```
+    VITE_GH_TOKEN=your_github_token
+    ```
+
+4️⃣ Click **Deploy**, and your portfolio will be live on your unique Vercel domain!
+
 
 ## Contributing 🏆
 We welcome contributions in the form of pull requests, issues, and documentation improvements. Feel free to help enhance this project in any way you can! ❤️
@@ -100,9 +117,9 @@ npm install
 npm run dev
 
 <br/>
-
+```
 ## Sample Git Workflow 🔀
-
+```bash
 # Create a new feature branch
 git checkout -b your-feature-branch
 
@@ -122,6 +139,7 @@ git rebase main
 git push origin your-feature-branch
 
 # Open a Pull Request on GitHub
+
 
 
 
