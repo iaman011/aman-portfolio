@@ -34,7 +34,6 @@ import {
   SiPython,
   SiCplusplus,
   SiC,
-  SiVisualstudiocode,
   SiPostman,
   SiGit,
   SiMysql,
@@ -262,11 +261,11 @@ export const skills = [
         icon: SiPostman,
         name: "Postman",
       },
-      {
-        id: "t-4",
-        icon: SiVisualstudiocode,
-        name: "VS Code",
-      },
+      // {
+      //   id: "t-4",
+      //   icon: SiVscode,
+      //   name: "VS Code",
+      // },
       {
         id: "t-5",
         icon: SiGit,
